@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hmsapp
+  name: Bank-App
 spec:
   selector:
     matchLabels:
-      app: bank-app
+      app: Bank-App
   replicas: 2
   template:
     metadata:
       labels:
-        app: bank-app
+        app: Bank-app
     spec:
       containers:
       - name: hmsapp
-        image: savytech/hospital_management_app:build-56
+        image: savytech/bank-app:build-9        
         ports:
         - containerPort: 80

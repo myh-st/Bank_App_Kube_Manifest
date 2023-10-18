@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hmsapp-service
+  name: Bank-app-service
 spec:
   selector:
-    app: hmsapp
+    app: bank-app
 
   type: LoadBalancer
   ports:
