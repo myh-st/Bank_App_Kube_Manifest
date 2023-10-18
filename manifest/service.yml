@@ -1,1 +1,14 @@
 
+apiVersion: v1
+kind: Service
+metadata:
+  name: hmsapp-service
+spec:
+  selector:
+    app: hmsapp
+
+  type: LoadBalancer
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
