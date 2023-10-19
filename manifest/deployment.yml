@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: Bank-app
+        app: Bank-App
     spec:
       containers:
       - name: hmsapp
