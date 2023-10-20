@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: savytech/bank-app:build-29
+        image: savytech/bank-app:build-31
         ports:
         - containerPort: 80
