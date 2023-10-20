@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hmsapp
-        image: savytech/bank-app:build-13
+        image: savytech/bank-app:build-19
         ports:
         - containerPort: 80
