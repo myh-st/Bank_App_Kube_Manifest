@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: savytech/bank-app:build-42
+        image: nginx:latest
         ports:
         - containerPort: 80
